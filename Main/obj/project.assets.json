@@ -32,21 +32,6 @@
           "lib/net45/MaterialDesignThemes.Wpf.dll": {}
         }
       },
-      "ModernUICharts.WPF.Beta/0.9.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "PresentationCore",
-          "PresentationFramework",
-          "System.Xaml",
-          "WindowsBase"
-        ],
-        "compile": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
-        },
-        "runtime": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
-        }
-      },
       "Prism.Core/7.2.0.1367": {
         "type": "package",
         "dependencies": {
@@ -119,21 +104,6 @@
         },
         "runtime": {
           "lib/net45/MaterialDesignThemes.Wpf.dll": {}
-        }
-      },
-      "ModernUICharts.WPF.Beta/0.9.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "PresentationCore",
-          "PresentationFramework",
-          "System.Xaml",
-          "WindowsBase"
-        ],
-        "compile": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
-        },
-        "runtime": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
         }
       },
       "Prism.Core/7.2.0.1367": {
@@ -210,21 +180,6 @@
           "lib/net45/MaterialDesignThemes.Wpf.dll": {}
         }
       },
-      "ModernUICharts.WPF.Beta/0.9.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "PresentationCore",
-          "PresentationFramework",
-          "System.Xaml",
-          "WindowsBase"
-        ],
-        "compile": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
-        },
-        "runtime": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
-        }
-      },
       "Prism.Core/7.2.0.1367": {
         "type": "package",
         "dependencies": {
@@ -297,21 +252,6 @@
         },
         "runtime": {
           "lib/net45/MaterialDesignThemes.Wpf.dll": {}
-        }
-      },
-      "ModernUICharts.WPF.Beta/0.9.1": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "PresentationCore",
-          "PresentationFramework",
-          "System.Xaml",
-          "WindowsBase"
-        ],
-        "compile": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
-        },
-        "runtime": {
-          "lib/De.TorstenMandelkow.MetroChart.dll": {}
         }
       },
       "Prism.Core/7.2.0.1367": {
@@ -556,18 +496,6 @@
         "src/net45/ValidationAssist.cs"
       ]
     },
-    "ModernUICharts.WPF.Beta/0.9.1": {
-      "sha512": "tL2BxIGBqXyKWUiUHB5s9+N32gFiIeswnbjz7iJ6TNbJQkLapB3UaBfoIEQ0PUO8H7jjbg3lCZv/sqHE6YJ+Yw==",
-      "type": "package",
-      "path": "modernuicharts.wpf.beta/0.9.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/De.TorstenMandelkow.MetroChart.dll",
-        "modernuicharts.wpf.beta.0.9.1.nupkg.sha512",
-        "modernuicharts.wpf.beta.nuspec"
-      ]
-    },
     "Prism.Core/7.2.0.1367": {
       "sha512": "vrz2M/Hr9ItcAUvnT+n76ak6qPQMgJfyTYFSKqphveb9ibohm70vzc0cWu1jkeBY5XPS9RbUluXMa9WQGM0kPw==",
       "type": "package",
@@ -656,7 +584,6 @@
     ".NETFramework,Version=v4.7.2": [
       "MaterialDesignColors >= 1.2.0",
       "MaterialDesignThemes >= 2.6.0",
-      "ModernUICharts.WPF.Beta >= 0.9.1",
       "Prism.Wpf >= 7.2.0.1367"
     ]
   },
@@ -705,10 +632,6 @@
           "MaterialDesignThemes": {
             "target": "Package",
             "version": "[2.6.0, )"
-          },
-          "ModernUICharts.WPF.Beta": {
-            "target": "Package",
-            "version": "[0.9.1, )"
           },
           "Prism.Wpf": {
             "target": "Package",
